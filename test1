@@ -1,0 +1,9 @@
+def vyhodnot(radek):
+    if 'xxx' in radek:
+        return ('\'x\'')
+        
+    elif 'ooo' in radek:
+        return ('\'o\'')
+        
+vysledek = vyhodnot("xooxoxoxxxooxox")
+print (vysledek)
